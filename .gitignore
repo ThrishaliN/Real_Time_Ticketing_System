@@ -1,0 +1,45 @@
+# Logs
+*.log
+
+# Node.js (React frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# React test coverage
+frontend/coverage/
+
+# Spring Boot (Java backend)
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/.env
+*.iml
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment files (if any)
+.env
+*.env
+
+# IntelliJ
+*.iws
+*.ipr
+
+# Gradle/Maven cache
+.gradle/
+**/build/
+**/out/
